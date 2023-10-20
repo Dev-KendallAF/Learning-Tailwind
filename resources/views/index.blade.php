@@ -1,4 +1,4 @@
-<x-layouts.app titulo="Introduccion">
+<x-layouts.app titulo="Introduccion" subpage='false'>
     <x-slot name="content">
         <div class="container my-36 mx-auto">
            <div class="grid sm:grid-cols-2 md:grid-cols-1">
@@ -93,4 +93,6 @@
 
     </x-slot>
 </x-layouts.app>
+
+
 

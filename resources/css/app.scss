@@ -1,12 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navlink a
+{ 
+        @apply rounded-md px-3 py-2 text-sm font-medium ;
+        &:hover{@apply underline underline-offset-8 text-indigo-500 trs}
+        &.active
+        {
+            
+            @apply bg-indigo-500 text-white rounded-md px-3 py-2 text-sm font-medium shadow-md shadow-indigo-500/50;
+            &:hover{text-decoration: none; @apply bg-indigo-400 trs}
+        }
+        
+}
+
+
+
 body
 {
-    background-image: url('https://tailwindui.com/img/beams-basic.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    /*Definir la altura y la anchura*/
+    @media (prefers-color-scheme: light) 
+    {
+        background-image: url('https://tailwindui.com/img/beams-basic.png');
+        /*Definir la altura y la anchura*/
         &::-webkit-scrollbar {
             width: 5px; /* Tamaño del scroll en vertical */
             height: 7px; /* Tamaño del scroll en horizontal */
@@ -32,7 +48,42 @@ body
             background: #e1e1e1;
             border-radius: 4px;
         }
+    }
+    @media (prefers-color-scheme: dark) 
+    {
+        background-image: url('https://images.unsplash.com/photo-1614852206732-6728910dc175?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+       *{
+        color: #e1e1e1 !important;
+       } 
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+        /* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+            &::-webkit-scrollbar-thumb {
+                background: #aaa;
+                border-radius: 7px;
+            }
+        /* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+            &::-webkit-scrollbar-thumb:hover {
+                background: #b3b3b3;
+                box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+            }
+        /* Cambiamos el fondo cuando esté en active */
+            &::-webkit-scrollbar-thumb:active {
+                background-color: #999999;
+            }
+    
+        /* Ponemos un color de fondo y redondeamos las esquinas del track */
+            &::-webkit-scrollbar-track {
+                background: #e1e1e1;
+                border-radius: 4px;
+            }
+    }
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
+
  /* Cambiamos el fondo cuando esté en active o hover */
  body::-webkit-scrollbar-track:hover,
  body::-webkit-scrollbar-track:active {

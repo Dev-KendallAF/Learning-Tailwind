@@ -9,7 +9,13 @@
     @vite(['resources/css/app.scss','resources/js/app.js'])
 </head>
 <body>
+    @if ($subpage)
+    <x-layouts.navbar />
+    
+    @else
     <x-layouts.hero />
+
+    @endif
     {{$content ?? ''}}
 
     <x-layouts.footer />
