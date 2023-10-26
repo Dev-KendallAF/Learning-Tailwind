@@ -58,7 +58,9 @@
     </div>
   </div>
 </nav>
-<div class="grid grid-cols-2 h-screen bg-gray-700 bg-cover bg-right" style="background-image: url('https://images.unsplash.com/photo-1622737133809-d95047b9e673?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+
+
+<div class="grid md:grid-cols-2 h-screen bg-gray-700 bg-cover bg-center md:bg-cover md:bg-right" style="background-image: url('https://images.unsplash.com/photo-1622737133809-d95047b9e673?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
 <div class="h-full flex items-center backdrop-blur-sm bg-black/30  text-white">
   <div class="px-10">
     <p class="text-sm p-1 rounded-full inline px-3 font-semibold bg-gradient-to-r from-indigo-500 to-cyan-500 ">{{$navsubtitle}}</p>

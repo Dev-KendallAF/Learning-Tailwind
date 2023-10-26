@@ -11,20 +11,20 @@
                     <span class="text-cyan-500">Usar clases de utilidad para crear diseños personalizados sin escribir CSS                    </span>
                 </p>
             </div>
-            <div class="pl-6 md:text-center m-24"> 
+            <div class="pl-6 md:text-center m-24" id="info"> 
                 <div class="relative columns-1 sm:columns-3 gap-8">
                     <div class="text-center" data-aos="fade-left" >
                         <h1 class="font-bold my-2 sm:hidden md:block dark:text-cyan-300">Layout</h1>
                         <a href="{{route('grids')}}" data-aos="fade-in" data-aos-duration="500" class="relative inline-block border text-gray-400 rounded-lg bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
                             <i class="fa-solid fa-table-cells fa-2xl"></i>
                         </a>
-                        <a href="" data-aos="fade-in" data-aos-duration="1000" class="relative inline-block border text-gray-400 rounded-lg bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
+                        <a href="{{route('grids')}}#text" data-aos="fade-in" data-aos-duration="1000" class="relative inline-block border text-gray-400 rounded-lg bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
                             <i class="fa-solid fa-font  fa-2xl"></i>
                         </a>
-                        <a href="" data-aos="fade-in" data-aos-duration="1500" class="relative inline-block border text-gray-400 rounded-lg bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
+                        <a href="{{route('grids')}}#border" data-aos="fade-in" data-aos-duration="1500" class="relative inline-block border text-gray-400 rounded-lg bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
                             <i class="fa-solid fa-border-none  fa-2xl"></i>
                         </a>
-                        <a href="" data-aos="fade-in" data-aos-duration="2000" class="relative inline-block border text-gray-400 rounded-lg bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
+                        <a href="{{route('grids')}}#pseudo" data-aos="fade-in" data-aos-duration="2000" class="relative inline-block border text-gray-400 rounded-lg bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
                             <i class="fa-solid fa-diagram-project  fa-2xl"></i>
                         </a>
                     </div>
