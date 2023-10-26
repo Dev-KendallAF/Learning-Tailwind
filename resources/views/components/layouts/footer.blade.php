@@ -1,4 +1,4 @@
-<footer class="bg-cyan-950 pb-36 pt-10 text-white ">
+<footer class="bg-cyan-950 pb-36 pt-10 text-white dark:bg-blue-950">
 <div class="container mx-auto text-center">
     <h1 class="p-3 text-xl" data-aos="fade-in"> <i class="fa-regular fa-circle-user"></i> Dev_KendallFernandez</h1> 
     <div class=" flex flex-row mt-5 gap-7 place-content-center">

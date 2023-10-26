@@ -26,12 +26,12 @@
       </div>
       <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex flex-shrink-0 items-center">
-          <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
+          <img class="h-8 w-auto sm:hidden" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
         </div>
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4 navlink">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <a href="{{route('Home')}}" >Inicio</a>
+            <a href="{{route('index')}}" >Inicio</a>
             <a href="#" class="active" aria-current="page">Layout</a>
             <a href="#" >Colors</a>
             <a href="#" >Animation</a>
@@ -58,3 +58,13 @@
     </div>
   </div>
 </nav>
+<div class="grid grid-cols-2 h-screen bg-gray-700 bg-cover bg-right" style="background-image: url('https://images.unsplash.com/photo-1622737133809-d95047b9e673?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+<div class="h-full flex items-center backdrop-blur-sm bg-black/30  text-white">
+  <div class="px-10">
+    <p class="text-sm p-1 rounded-full inline px-3 font-semibold bg-gradient-to-r from-indigo-500 to-cyan-500 ">{{$navsubtitle}}</p>
+    <h1 class="text-7xl font-bold ">{{$navtitle}}</h1>
+    <p class="py-5">{{$navtext}}</p>
+  </div>
+
+</div>
+</div>

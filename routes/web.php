@@ -14,21 +14,22 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
-})->name('home');
+    $subpage = '0';
+    return view('index',compact('subpage'));
+})->name('index');
 
 
 Route::get('/layouts-examples', function () {
-    $subpage = true;
+    $subpage = '1';
     return view('Grids',compact('subpage'));
 })->name('grids');
 
 Route::get('/animations-examples', function () {
-    $subpage = true;
+    $subpage = '1';
     return view('Animations',compact('subpage'));
 })->name('animations');
 
 Route::get('/colors-examples', function () {
-    $subpage = true;
+    $subpage = '1';
     return view('Colors',compact('subpage'));
 })->name('colors');

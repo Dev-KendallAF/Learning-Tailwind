@@ -1,4 +1,4 @@
-<x-layouts.app titulo="Introduccion" subpage="{{$subpage}}">
+<x-layouts.app titulo="Introduccion" subpage="{{$subpage}}" navtitle="Layout y Grids" navsubtitle="Introduccion Contenedores" navtext="Aprende a utilizar las funciones basicas del posicionamiento de elementos en Tailwind">
   <x-slot name="content">
       <div class="container my-36 mx-auto">
          <div class="grid sm:grid-cols-2 md:grid-cols-1">

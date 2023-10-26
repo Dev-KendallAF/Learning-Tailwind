@@ -9,8 +9,9 @@
     @vite(['resources/css/app.scss','resources/js/app.js'])
 </head>
 <body>
-    @if ($subpage)
-    <x-layouts.navbar />
+
+    @if ($subpage != '0')
+    <x-layouts.navbar navtitle={{$navtitle}} navsubtitle={{$navsubtitle}} navtext={{$navtext}}/>
     
     @else
     <x-layouts.hero />
