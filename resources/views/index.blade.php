@@ -32,31 +32,31 @@
                    
                     <div class="text-center" data-aos="fade-up">
                         <h1 class="font-bold my-2 sm:hidden md:block dark:text-cyan-300">Colores y Texto</h1>
-                        <a href="" data-aos="fade-in" data-aos-duration="500"  class="relative rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
+                        <a href="{{route('colors')}}" data-aos="fade-in" data-aos-duration="500"  class="relative rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
                             <i class="fa-solid fa-palette fa-2xl"></i>
                         </a>
-                        <a href="" data-aos="fade-in" data-aos-duration="1000" class="relative rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
+                        <a href="{{route('colors')}}#text" data-aos="fade-in" data-aos-duration="1000" class="relative rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
                             <i class="fa-solid fa-heading  fa-2xl"></i>
                         </a>
-                        <a href="" data-aos="fade-in" data-aos-duration="1500" class="relative rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
+                        <a href="{{route('colors')}}#text" data-aos="fade-in" data-aos-duration="1500" class="relative rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
                             <i class="fa-solid fa-moon  fa-2xl"></i>
                         </a>
-                        <a href="" data-aos="fade-in" data-aos-duration="2000" class="relative rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
+                        <a href="{{route('colors')}}#text" data-aos="fade-in" data-aos-duration="2000" class="relative rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
                             <i class="fa-solid fa-gear  fa-2xl"></i>
                         </a>
                     </div>
                     <div class="text-center " data-aos="fade-right">
                         <h1 class="font-bold my-2 sm:hidden md:block dark:text-cyan-300">Transición y animaciones</h1>
-                        <a href=""  data-aos="fade-in" data-aos-duration="500"  class="relative rounded-lg  inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
+                        <a href="{{route('animations')}}"  data-aos="fade-in" data-aos-duration="500"  class="relative rounded-lg  inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
                             <i class="fa-solid fa-film  fa-2xl"></i>
                         </a>
-                        <a href=""  data-aos="fade-in" data-aos-duration="1000" class="relative  rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
+                        <a href="{{route('animations')}}#text"  data-aos="fade-in" data-aos-duration="1000" class="relative  rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
                             <i class="fa-solid fa-maximize  fa-2xl"></i>
                         </a>
-                        <a href=""  data-aos="fade-in" data-aos-duration="1500" class="relative  rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
+                        <a href="{{route('animations')}}#text"  data-aos="fade-in" data-aos-duration="1500" class="relative  rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
                             <i class="fa-solid fa-forward  fa-2xl"></i>
                         </a>
-                        <a href=""  data-aos="fade-in" data-aos-duration="2000" class="relative  rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
+                        <a href="{{route('animations')}}#text"  data-aos="fade-in" data-aos-duration="2000" class="relative  rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
                             <i class="fa-solid fa-video  fa-2xl"></i>
                         </a>
                     </div>

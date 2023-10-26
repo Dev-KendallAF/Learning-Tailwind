@@ -11,7 +11,7 @@
 <body>
 
     @if ($subpage != '0')
-    <x-layouts.navbar navtitle={{$navtitle}} navsubtitle={{$navsubtitle}} navtext={{$navtext}}/>
+    <x-layouts.navbar url={{$url}} navindex={{$nav}} navtitle={{$navtitle}} navsubtitle={{$navsubtitle}} navtext={{$navtext}}/>
     
     @else
     <x-layouts.hero />

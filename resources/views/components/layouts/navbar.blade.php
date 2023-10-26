@@ -31,10 +31,11 @@
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4 navlink">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+           
             <a href="{{route('index')}}" >Inicio</a>
-            <a href="#" class="active" aria-current="page">Layout</a>
-            <a href="#" >Colors</a>
-            <a href="#" >Animation</a>
+            <a href="{{route('grids')}}" @if($navindex=='1')class="active"@endif aria-current="page">Layout</a>
+            <a href="{{route('colors')}}" @if($navindex=='2')class="active"@endif >Colors</a>
+            <a href="{{route('animations')}}" @if($navindex=='3')class="active"@endif>Animation</a>
           </div>
         </div>
       </div>
@@ -60,7 +61,7 @@
 </nav>
 
 
-<div class="grid md:grid-cols-2 h-screen bg-gray-700 bg-cover bg-center md:bg-cover md:bg-right" style="background-image: url('https://images.unsplash.com/photo-1622737133809-d95047b9e673?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+<div class="grid md:grid-cols-2 h-screen bg-gray-700 bg-cover bg-center md:bg-cover md:bg-right" style="background-image: url('{{$url}}')">
 <div class="h-full flex items-center backdrop-blur-sm bg-black/30  text-white">
   <div class="px-10">
     <p class="text-sm p-1 rounded-full inline px-3 font-semibold bg-gradient-to-r from-indigo-500 to-cyan-500 ">{{$navsubtitle}}</p>
