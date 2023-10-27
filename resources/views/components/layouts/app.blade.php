@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +8,10 @@
     <script src="https://kit.fontawesome.com/eddade569a.js" crossorigin="anonymous"></script>
     @vite(['resources/css/app.scss','resources/js/app.js'])
 </head>
-<body>
+<body >
 
     @if ($subpage != '0')
+    
     <x-layouts.navbar url={{$url}} navindex={{$nav}} navtitle={{$navtitle}} navsubtitle={{$navsubtitle}} navtext={{$navtext}}/>
     
     @else

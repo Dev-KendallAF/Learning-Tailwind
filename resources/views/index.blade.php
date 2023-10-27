@@ -38,10 +38,10 @@
                         <a href="{{route('colors')}}#text" data-aos="fade-in" data-aos-duration="1000" class="relative rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
                             <i class="fa-solid fa-heading  fa-2xl"></i>
                         </a>
-                        <a href="{{route('colors')}}#text" data-aos="fade-in" data-aos-duration="1500" class="relative rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
+                        <a href="{{route('colors')}}#darkmode" data-aos="fade-in" data-aos-duration="1500" class="relative rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
                             <i class="fa-solid fa-moon  fa-2xl"></i>
                         </a>
-                        <a href="{{route('colors')}}#text" data-aos="fade-in" data-aos-duration="2000" class="relative rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
+                        <a href="{{route('colors')}}#darkmode" data-aos="fade-in" data-aos-duration="2000" class="relative rounded-lg inline-block border text-gray-400 bg-gradient-to-r hover:border-indigo-500  hover:from-indigo-500 hover:to-cyan-500 hover:text-white p-10 aspect-w-16 aspect-h-5 trs-5 dark:text-white">
                             <i class="fa-solid fa-gear  fa-2xl"></i>
                         </a>
                     </div>

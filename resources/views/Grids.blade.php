@@ -76,8 +76,31 @@
                         @endforeach
                     </div>
                 </div>
+
+                 <div class="container mx-auto my-36">
+                <div class="grid grid-cols-1 ">
+                    <div class="pl-6 text-start ">
+                    <h1 class="text-4xl font-semibold my-3 dark:text-cyan-300" data-aos="zoom-in">Rows</h1>
+                    <hr >
+                    <p class="text-gray-500 text-lg py-5 dark:text-white" data-aos="zoom-in">
+                        Con los rows puedes aplicar un valor de filas que quieres que tenga tu elemento, puedes aplicar por defecto que tenga 5 rows de 3 columnas para ellos vamos a ingresar las siguientes clases. Si inspeccionamos la web veremos que este tiene el layout activo
+                    </p>
+                    <p class="text-gray-500 text-lg py-5 dark:text-white" data-aos="zoom-in">
+                        Con col-span podemos aplicar si sobra un elementos decirle que ocupe 2 espacios <br>
+                        Con row-span podemos aplicar si queremos que tome espacio en y 
+                    </p>
                 </div>
-            </div>
+                <div class="pl-6 text-start">
+                    <div class="grid grid-cols-3 grid-rows-5 gap-5 text-center text-white">
+                        @foreach ([1,2,3,4,5,6,7] as $i)
+                       @if ($i==7)
+                        <div class="p-5 col-span-3 rounded bg-red-500 data-aos-duration="{{$i}}{{$i++}}0" data-aos="zoom-in"">{{$i}}</div>   
+                       @else 
+                       <div class="p-5 rounded row-span-3  bg-cyan-500 data-aos-duration="{{$i}}{{$i++}}0" data-aos="zoom-in"">{{$i}}</div>   
+                       @endif
+                        @endforeach
+                    </div>
+                </div>
         </section>
         <section id="text">
             <div class="container mx-auto my-36">
@@ -145,7 +168,6 @@
             </div>
 
         </section> 
-
         <section id="pseudo">
             <div class="container mx-auto my-36">
                 <div class="grid md:grid-cols-2">

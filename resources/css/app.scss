@@ -20,12 +20,12 @@
 
 body
 {
-        @media (prefers-color-scheme: light) 
+        &.lightMode
         {
             background-image: url('https://img.freepik.com/foto-gratis/fondo-pantalla-telefono-pastel-unicornio_53876-160462.jpg?w=360&t=st=1698347741~exp=1698348341~hmac=df15f64fc93d9d8d8a4b667c44ab3b3c6831dc11c85848d7fbbfeb4f3b625c84');
         }
 
-        @media (prefers-color-scheme: dark) 
+        &.darkMode 
         {
             background-image: url('https://images.unsplash.com/photo-1614852206732-6728910dc175?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
         }
