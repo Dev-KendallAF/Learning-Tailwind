@@ -1,4 +1,4 @@
-<x-layouts.app titulo="Introduccion" nav={{$nav}} subpage="{{$subpage}}" navtitle="Layout y Grids" navsubtitle="Introduccion Contenedores" navtext="Aprende a utilizar las funciones basicas del posicionamiento de elementos en Tailwind" url="https://images.unsplash.com/photo-1622737133809-d95047b9e673?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+<x-layouts.app titulo="Layouts" nav={{$nav}} subpage="{{$subpage}}" navtitle="Layout y Grids" navsubtitle="Introduccion Contenedores" navtext="Aprende a utilizar las funciones basicas del posicionamiento de elementos en Tailwind" url="https://images.unsplash.com/photo-1622737133809-d95047b9e673?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
     <x-slot name="content">
         <section id="layout">
             <div class="container mx-auto my-36">

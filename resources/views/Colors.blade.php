@@ -1,4 +1,4 @@
-<x-layouts.app titulo="Introduccion" nav={{$nav}} subpage="{{$subpage}}" navtitle="Colores y Texto" navsubtitle="Aplicar estilos facilmente" navtext="Aplica estilos para tus sitios web facilmente con Tailwind con este Framework puedes aplicar diversos ajustes para que tu web se adapte a tus necesidades" url='https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'>
+<x-layouts.app titulo="Colors" nav={{$nav}} subpage="{{$subpage}}" navtitle="Colores y Texto" navsubtitle="Aplicar estilos facilmente" navtext="Aplica estilos para tus sitios web facilmente con Tailwind con este Framework puedes aplicar diversos ajustes para que tu web se adapte a tus necesidades" url='https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'>
     <x-slot name="content">
         <section id="color">
             <div class="container mx-auto my-36">
