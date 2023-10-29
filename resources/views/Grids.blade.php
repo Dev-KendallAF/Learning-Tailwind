@@ -76,8 +76,9 @@
                         @endforeach
                     </div>
                 </div>
+               
 
-                 <div class="container mx-auto my-36">
+                <div class="container mx-auto my-36">
                 <div class="grid grid-cols-1 ">
                     <div class="pl-6 text-start ">
                     <h1 class="text-4xl font-semibold my-3 dark:text-cyan-300" data-aos="zoom-in">Rows</h1>
@@ -101,7 +102,142 @@
                         @endforeach
                     </div>
                 </div>
+                </div>
+                 </div>
+                 
+
+                
         </section>
+
+        <div class="container mx-auto my-10">
+            
+            <div class="pl-6 sm:text-start md:text-center">
+                <h1 class="text-4xl font-semibold my-3 dark:text-cyan-300" data-aos='zoom-in' >Flex Box</h1>
+                <hr class="md:mx-10">
+                <p class="text-gray-500 text-lg md:p-5 dark:text-white" data-aos='zoom-in' data-aos-duration="1000"> 
+                    Es un atributo utilizado para facilitar el posicionamiento de nuestros elementos de nuestra web,resultando facilimente utilzar y dar uso de el para posicionar como este requiera
+                </p>
+            </div>
+
+            <div class="container mx-auto my-10 backdrop-blur-sm bg-black/80  shadow-lg dark:bg-white/10  rounded-lg p-10 text-white">
+                <div class="rounded-lg text-center">
+                <h2 class="font-semibold">M&aacute;s informaci&oacute;n</h2>
+                    <span class="bg-white rounded-full p-1">
+                        <i class="fa-solid fa-angles-down fa-bounce p-3 text-black"></i>
+                    </span>
+                    
+                    <div class="text-start">
+                        <h3 class="font-semibold mt-10 text-cyan-300">
+                           ¿Como Utilizarlo?
+                        </h3>
+                        <p>
+                            Como la mayoria de clases en tailwind es necesario inicializarla con el nombre del atributo que queremos aplicar en este caso es  <span class="text-primary"> flex</span>
+                        </p>
+                        <h3 class="font-semibold mt-10 text-cyan-300">
+                            Flex-row
+                        </h3>
+                        <div class="grid grid-cols-2 divide-x">
+                            <div><p>Esta clase posiciona los elementos seguidos en fila, el elemento padre con esta clase aplicara el estilo de flex a sus hijos</p></div>
+                            <div class="flex flex-row gap-3 pl-3">
+                                @foreach(['cyan','purple','red','indigo'] as $i)
+                                <div class="p-3 rounded-lg  w-20 text-center bg-{{$i}}-500 text-{{$i}}-600">{{$i}}</div>
+                                @endforeach
+                            </div>
+                        </div>
+                        <h3 class="font-semibold mt-10 text-cyan-300">
+                            Flex-col
+                        </h3>
+                        <div class="grid grid-cols-2 divide-x p-2">
+                            <div>
+                                <p>Esta clase posiciona los elementos seguidos en columnas, de arriba abajo </p>
+                                <p class="mt-2">Podemos invertir el orden del posicionamiento de nuestros elementos con <span class="text-primary"> flex-col-reverse</span> </p>
+                            
+                            </div>
+                            <div class="flex flex-col gap-3 pl-3">
+                                @foreach(['cyan','purple','red','indigo'] as $i)
+                                <div class="p-3 rounded-lg  w-50 text-center bg-{{$i}}-500 text-{{$i}}-600">{{$i}}</div>
+                                @endforeach
+                            </div>
+                        </div>
+
+                        <h3 class="font-semibold mt-10 text-cyan-300">
+                            Flex-nowrap
+                        </h3>
+                        <div class="grid grid-cols-2 divide-x">
+                            <div>
+                                <p>Flex box por default tiene las propiedad de acomodar nuestros elementos segun el tamaño de nuestro dispositivo si queremos hacer que este tamaño no cambie utilizamos esta clase </p>
+                            </div>
+                            <div class="flex flex-nowrap gap-3 pl-3">
+                                @foreach(['cyan','purple','red','indigo'] as $i)
+                                <div class="p-3 rounded-lg  w-100 text-center bg-{{$i}}-500 text-{{$i}}-600">{{$i}}</div>
+                                @endforeach
+                            </div>
+                        </div>
+                        <h3 class="font-semibold mt-10 text-cyan-300">
+                            Flex-wrap
+                        </h3>
+                        <div class="grid grid-cols-2 divide-x p-2">
+                            <div>
+                                <p>Aplica la propiedad para que respete el ancho de nuestros elementos posicionandolos segun el tamaño de pantalla </p>
+                            </div>
+                            <div class="flex flex-wrap gap-3 pl-3">
+                                @foreach(['cyan','purple','red','indigo'] as $i)
+                                <div class="p-3 rounded-lg  w-20 text-center bg-{{$i}}-500 text-{{$i}}-600">{{$i}}</div>
+                                @endforeach
+                            </div>
+                        </div>
+                        <h3 class="font-semibold mt-10 text-cyan-300">
+                            Flex-wrap
+                        </h3>
+                        <div class="grid grid-cols-2 divide-x p-2">
+                            <div>
+                                <p>Aplica la propiedad para que respete el ancho de nuestros elementos posicionandolos segun el tamaño de pantalla </p>
+                            </div>
+                            <div class="flex flex-wrap gap-3 pl-3">
+                                @foreach(['cyan','purple','red','indigo'] as $i)
+                                <div class="p-3 rounded-lg  w-20 text-center bg-{{$i}}-500 text-{{$i}}-600">{{$i}}</div>
+                                @endforeach
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 divide-x p-2">
+                            <div>
+                                <h3 class="font-semibold mt-10 text-cyan-300">
+                                    Flex-grow
+                                </h3>
+                                <p>Si queremos que nuestro elemento cresca, utilizamos segun el tamaño de pantalla aprovechando el espacio esta clase.</p>
+                                <p class="mt-2">Para hacer que nuestro elemento no cresca aplicamos flex-grow-0</p>
+                            </div>
+                            <div class="pl-3">
+                                <h3 class="font-semibold mt-10 text-cyan-300">
+                                    Flex-shrink
+                                </h3>
+                                <p>funciona para establecer el control cuando queremos aplicar el efecto contrario de flex-grow este enconje el elemento cuando la ventana se hace pequeña</p>
+                                <p class="mt-2">Para hacer que nuestro elemento no se encoja aplicamos flex-shrink-0</p>
+                            </div>
+                           
+                        </div>
+                     
+                        <div class="grid grid-cols-2 divide-x">
+                            <div>
+                                <h3 class="font-semibold mt-10 text-cyan-300">
+                                    Flex-none
+                                </h3>
+                                <p>Funciona aplicando el efecto de grow-0 y shrink-0 cuando hacemos la ventana pequeña, quiere decir que cuando el tamaño de la ventana cambie no se va agrandar o encojer el elemento.</p>
+                            </div>
+                            <div class="pl-3">
+                                <h3 class="font-semibold mt-10 text-cyan-300">
+                                    Flex-auto
+                                </h3>
+                                <p>Este aplica el efecto de encojerse y agrandarce segun el espacio que tenga disponible </p>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+    
+        </div>
+
         <section id="text">
             <div class="container mx-auto my-36">
                 <div class="grid md:grid-cols-2">
